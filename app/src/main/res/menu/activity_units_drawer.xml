@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_length"
+            android:icon="@drawable/ic_menu_length"
+            android:title="@string/length" />
+        <item
+            android:id="@+id/nav_area"
+            android:icon="@drawable/ic_menu_area"
+            android:title="@string/area" />
+        <item
+            android:id="@+id/nav_volume"
+            android:icon="@drawable/ic_menu_volume"
+            android:title="@string/volume" />
+
+        <item
+            android:id="@+id/nav_pressure"
+            android:icon="@drawable/ic_menu_pressure"
+            android:title="@string/pressure" />
+
+        <item
+            android:id="@+id/nav_temperature"
+            android:icon="@drawable/ic_menu_temperature"
+            android:title="@string/temperature" />
+
+        <item
+            android:id="@+id/nav_weight"
+            android:icon="@drawable/ic_menu_weight"
+            android:title="@string/weight" />
+    </group>
+
+    <item
+        android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="@string/menu_settings"/>
+        </menu>
+    </item>
+
+</menu>

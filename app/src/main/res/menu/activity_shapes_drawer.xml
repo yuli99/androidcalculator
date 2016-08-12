@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sphere"
+            android:icon="@drawable/ic_menu_sphere"
+            android:title="@string/sphere" />
+        <item
+            android:id="@+id/nav_cube"
+            android:icon="@drawable/ic_menu_cube"
+            android:title="@string/cubeShape" />
+        <item
+            android:id="@+id/nav_cone"
+            android:icon="@drawable/ic_menu_cone"
+            android:title="@string/cone" />
+        <item
+            android:id="@+id/nav_cylinder"
+            android:icon="@drawable/ic_menu_cylinder"
+            android:title="@string/cylinder" />
+        <item
+            android:id="@+id/nav_capsule"
+            android:icon="@drawable/ic_menu_capsule"
+            android:title="@string/capsule" />
+        <item
+            android:id="@+id/nav_ellipsoid"
+            android:icon="@drawable/ic_menu_ellipsoid"
+            android:title="@string/ellipsoid" />
+    </group>
+
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/drawer_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="@string/menu_settings"/>
+        </menu>
+    </item>
+
+
+</menu>

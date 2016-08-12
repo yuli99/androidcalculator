@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_light"
+    tools:context=".UnitsActivity">
+
+    <com.melnykov.fab.ObservableScrollView
+        android:id="@+id/unit_list_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/content_margin_medium"
+        android:layout_marginTop="@dimen/content_margin_medium"
+        android:layout_marginRight="@dimen/content_margin_medium"
+        android:layout_marginBottom="@dimen/content_margin_small">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:id="@+id/tableLayout"
+                android:paddingTop="@dimen/content_margin_medium"
+                android:paddingLeft="@dimen/content_margin_medium"
+                android:paddingRight="@dimen/content_margin_medium"
+                android:paddingBottom="@dimen/content_margin_medium">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/unitInput"
+                        android:id="@+id/textInput"
+                        android:textColor="@android:color/black"
+                        android:gravity="bottom"
+                        android:layout_column="0"
+                        android:layout_marginBottom="16dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:ems="10"
+                        android:inputType="numberSigned|numberDecimal"
+                        android:id="@+id/editInput"
+                        android:background="@color/white"
+                        android:textColor="@color/black"
+                        android:singleLine="true"
+                        android:layout_column="1"
+                        android:scrollHorizontally="true" />
+
+                    <requestFocus />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/unitResult"
+                        android:id="@+id/textResult"
+                        android:textColor="@color/black"
+                        android:layout_column="0" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:ems="10"
+                        android:inputType="none"
+                        android:id="@+id/editResult"
+                        android:background="@color/white"
+                        android:textColor="@color/black"
+                        android:singleLine="true"
+                        android:layout_column="1"
+                        android:scrollHorizontally="true"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearText"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/content_margin_large"
+                android:paddingRight="@dimen/content_margin_large"
+                android:paddingTop="@dimen/content_margin_medium">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/unitFrom"
+                    android:id="@+id/textFrom"
+                    android:textColor="@color/orange"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/unitTo"
+                    android:id="@+id/textTo"
+                    android:textColor="@color/orange"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearUnits"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/content_margin_medium">
+
+                <RadioGroup
+                    android:id="@+id/radio_group_from"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group_to"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.melnykov.fab.ObservableScrollView>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:backgroundTint="@color/orange"
+        android:src="@drawable/ic_action_convert"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        android:scaleType="center" />
+
+</RelativeLayout>

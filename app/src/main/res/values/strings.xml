@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Scientific Calculator</string>
+    <string name="menu_main">Calculator Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_clean">Clean</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="title_activity_units">Unit Converter</string>
+    <string name="title_activity_shapes">Shape Calculator</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="toast_copied_clipboard">Text copied to clipboard</string>
+
+
+    <!-- scientific calculator -->
+    <string name="units">Units</string>
+    <string name="shapes">Shapes</string>
+    <string name="clean">Clean</string>
+    <string name="delete">Del</string>
+    <string name="ans">Ans</string>
+    <string name="equal">=</string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiple">×</string>
+    <string name="divide">÷</string>
+    <string name="power">^</string>
+    <string name="modulo">%</string>
+    <string name="dot">.</string>
+    <string name="openPar">(</string>
+    <string name="closePar">)</string>
+
+    <string name="num9">9</string>
+    <string name="num8">8</string>
+    <string name="num7">7</string>
+    <string name="num6">6</string>
+    <string name="num5">5</string>
+    <string name="num4">4</string>
+    <string name="num3">3</string>
+    <string name="num2">2</string>
+    <string name="num1">1</string>
+    <string name="num0">0</string>
+
+    <string name="secondFunc">2nd</string>
+    <string name="degSwitch">deg/rad</string>
+
+    <string name="pi">π</string>
+    <string name="e">e</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="asin">asin</string>
+    <string name="acos">acos</string>
+    <string name="atan">atan</string>
+    <string name="sinh">sinh</string>
+    <string name="cosh">cosh</string>
+
+    <string name="abs">abs</string>
+    <string name="factorial">n!</string>
+    <string name="invert">1/x</string>
+    <string name="square">x^2</string>
+    <string name="cube">x^3</string>
+    <string name="exponential">e^x</string>
+    <string name="tenPower">10^x</string>
+    <string name="squareRoot">√x</string>
+    <string name="cubeRoot">3√x</string>
+    <string name="ln">ln</string>
+    <string name="log">log</string>
+
+    <!-- unit converter -->
+    <string name="unitInput">Input:</string>
+    <string name="unitResult">Result:</string>
+    <string name="unitFrom">From</string>
+    <string name="unitTo">To</string>
+
+    <string name="length">Length</string>
+    <string name="area">Area</string>
+    <string name="volume">Volume</string>
+    <string name="pressure">Pressure</string>
+    <string name="temperature">Temperature</string>
+    <string name="weight">Weight/Mass</string>
+    <string name="others">Other stuff</string>
+
+    <string name="inch">Inch</string>
+    <string name="foot">Foot</string>
+    <string name="yard">Yard</string>
+    <string name="mile">Mile</string>
+    <string name="millimetre">Millimetre (mm)</string>
+    <string name="centimetre">Centimetre (cm)</string>
+    <string name="metre">Metre (m)</string>
+    <string name="kilometre">Kilometre (km)</string>
+
+    <string name="sq_inch">Square Inch</string>
+    <string name="sq_foot">Square Foot</string>
+    <string name="sq_yard">Square Yard</string>
+    <string name="sq_mile">Square Mile</string>
+    <string name="sq_centimetre">Square Centimetre</string>
+    <string name="sq_metre">Square Metre</string>
+    <string name="sq_kilometre">Kilometre</string>
+    <string name="hectare">Hectare</string>
+    <string name="acre">Acre</string>
+
+    <string name="cb_inch">Cubic Inch</string>
+    <string name="cb_foot">Cubic Foot</string>
+    <string name="cb_centimetre">Cubic Centimetre</string>
+    <string name="cb_metre">Cubic Metre</string>
+    <string name="millilitre">Millilitre</string>
+    <string name="litre">Litre</string>
+    <string name="fluid_ounce">Fluid Ounce (US)</string>
+    <string name="quart">Quart (US)</string>
+    <string name="pint">Pint (US)</string>
+    <string name="gallon">Gallon (US)</string>
+    <string name="barrel">Barrel (US)</string>
+
+    <string name="atmosphere">Atmosphere</string>
+    <string name="pascal">Pascal</string>
+    <string name="bar">Bar</string>
+    <string name="psi">PSI</string>
+    <string name="torr">Torr</string>
+
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+
+    <string name="milligram">Milligram</string>
+    <string name="gram">Gram</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="ounce">Ounce</string>
+    <string name="pound">Pound</string>
+    <string name="stone">Stone</string>
+    <string name="us_ton">Ton (US)</string>
+
+    <!-- shape calculator -->
+    <string name="shapeRadius">Radius:</string>
+    <string name="shapeHeight">Height:</string>
+    <string name="shapeVolume">Volume:</string>
+    <string name="shapeSurface">Surface:</string>
+
+    <string name="shapeR">r =</string>
+    <string name="shapeH">h =</string>
+    <string name="shapeV">V =</string>
+    <string name="shapeS">S =</string>
+
+    <string name="sphere">Sphere</string>
+    <string name="cubeShape">Cube</string>
+    <string name="cone">Cone</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="capsule">Capsule</string>
+    <string name="ellipsoid">Ellipsoid</string>
+
+
+</resources>
